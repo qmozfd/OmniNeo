@@ -63,12 +63,8 @@ python model_mrna_seq.py
 ```
 The result files will be stored under the "mrna_seq/" folder.
 
-### 3.2 GUI
-In addition to the command line, we also provide a GUI to run the tool. Users can select a working directory by clicking on "Choose Directory", submit data by clicking on "Choose File" and start analysis by clicking on "Start Analysis". The log popup will show you the status of each step. You need to run the following command to bring up the GUI.
-```
-python gui.py
-```
-![](GUI.jpg)
+
 
 For detailed software installation and usage of ProGeo-neo-v3.0, please read the User's Manual.
 For coding neoantigen detection, we previously established a proteogenomic pipeline ProGeo-neo, ProGeo-neo source code and documentation are available at https://github.com/kbvstmd/ProGeo-neo.
+For Non-coding neoantigen detection, we previously established a proteogenomic pipeline PGNneo, PGNneo source code and documentation are available at https://github.com/tanxiaoxiu/PGNneo.
