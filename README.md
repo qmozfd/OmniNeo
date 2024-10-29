@@ -29,7 +29,7 @@ python model_rnaseq.py control_name_R1.fastq.gz control_name_R2.fastq.gz case_na
 python model_rnaseq.py con_R1.fastq.gz con_R2.fastq.gz case_R1.fastq.gz case_R2.fastq.gz
 
 ```
-The results of RNAseq data preprocessing, call mutation and HLA typing are in the “rna_result”, “mut_result” and “HLAtype” folders, respectively.
+The results of RNAseq data preprocessing, call mutation and HLA typing are in the "rna_result", "mut_result" and "HLAtype" folders, respectively.
 
 #### Module2: Generation of tumor-specific variant peptides
 ```
@@ -37,13 +37,13 @@ python model_nonconding_mutpep.py control_name_R1.fastq.gz case_name_R1.fastq.gz
 # eg:
 python model_nonconding_mutpep.py con_R1.fastq.gz case_R1.fastq.gz
 ```
-The results of the generated mutant peptides are under the “mut_result” folder.
+The results of the generated mutant peptides are under the "mut_result" folder.
 
 #### Module3: Database construction and variant peptide identification 
 ```
 python model_prediction.py
 ```
-The result files will be stored under the “ms_resultmqpar/combined/txt” folder.
+The result files will be stored under the "preneo/" folder.
 
 #### Module4: Neoantigen prediction and selection
 ```
@@ -51,17 +51,17 @@ python model_MS.py
 ```
 **notes:**
 
-Neoantigen predictions and filtering results will be stored in the “preneo” directory.
+Neoantigen predictions and filtering results will be stored in the "mass/" directory.
 #### Module5: Database construction and variant peptide identification 
 ```
 python model_filter.py
 ```
-The result files will be stored under the “ms_resultmqpar/combined/txt” folder.
+The result files will be stored under the "neofilter/" folder.
 #### Module6: Database construction and variant peptide identification 
 ```
 python model_mrna_seq.py
 ```
-The result files will be stored under the “ms_resultmqpar/combined/txt” folder.
+The result files will be stored under the "mrna_seq/" folder.
 
 ### 3.2 GUI
 In addition to the command line, we also provide a GUI to run the tool. Users can select a working directory by clicking on "Choose Directory", submit data by clicking on "Choose File" and start analysis by clicking on "Start Analysis". The log popup will show you the status of each step. You need to run the following command to bring up the GUI.
