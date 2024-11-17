@@ -1,7 +1,7 @@
-# QmniNeo
-QmniNeo: a ProteoGenomics-based Neoantigen Prediction Pipeline in Noncoding Regions
+# OmniNeo
+OmniNeo: a ProteoGenomics-based Neoantigen Prediction Pipeline in Noncoding Regions
 
-## Overview of QmniNeo pipeline
+## Overview of OmniNeo pipeline
 ![](pipeline.png)
 ## 1. Introduction
 
@@ -9,10 +9,10 @@ QmniNeo: a ProteoGenomics-based Neoantigen Prediction Pipeline in Noncoding Regi
 ## 2. Installation
 We provide two methods of installation.
 ### 2.1 Installation according to the User's Manual 
-Running environment: QmniNeo requires a Linux operation system (centos7) with Python (V3.8), R (V4.0), Perl (V5.16) and Java (V1.7) installed.
+Running environment: OmniNeo requires a Linux operation system (centos7) with Python (V3.8), R (V4.0), Perl (V5.16) and Java (V1.7) installed.
 Run the following codes before getting started.
 ```
-cd QmniNeo
+cd OmniNeo
 bash start.sh
 ```
 
@@ -65,6 +65,6 @@ The result files will be stored under the "mrna_seq/" folder.
 
 
 
-For detailed software installation and usage of QmniNeo, please read the User's Manual.
+For detailed software installation and usage of OmniNeo, please read the User's Manual.
 For coding neoantigen detection, we previously established a proteogenomic pipeline ProGeo-neo, ProGeo-neo source code and documentation are available at https://github.com/kbvstmd/ProGeo-neo.
 For Non-coding neoantigen detection, we previously established a proteogenomic pipeline PGNneo, PGNneo source code and documentation are available at https://github.com/tanxiaoxiu/PGNneo.
